@@ -1,3 +1,11 @@
+body{
+    background-color: black;
+}
+#anthem{
+    text-align: center;
+    font-size: 150px;
+    background-image: url('"https://images-na.ssl-images-amazon.com/images/I/71PwGxjZMNL._SL1500_.jpg');
+}
 .header{
     height: 300px;
     background-image: url("https://images-na.ssl-images-amazon.com/images/I/71PwGxjZMNL._SL1500_.jpg");
@@ -5,31 +13,36 @@
 .about{
     text-align: center;
     padding: 20px;
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    font-size: 20px;
+    color: blanchedalmond;
 }
 .member{
     float: left;
     width: 20%;
     padding: 15px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 400px;
     font-style: italic;
+    color: blanchedalmond;
 }
 .members::after{
      content: " "; 
     display: table;
     clear: both;
-    color: honeydew;
+    color: blanchedalmond;
    
 }
 .meet{
     text-align: center;
+    color: blanchedalmond;
 }
 .favorite{
     float: left;
     width: 30%;
+    height: 100%;
     padding: 15px;
+    color: blanchedalmond;
 }
 .favorites::after{
    content: " "; 
@@ -70,11 +83,11 @@ img:hover{
 }
 .slide-show{
     position: relative;
-    overflow: visible;
-}
+    background-color: gray;
+} 
 .slideshow-item{
-    position: absolute;
-    /* opacity: 0;  */
+     position: absolute; 
+    opacity: 0; 
     animation: cycleImages 12s linear infinite;
 }
 .slideshow-item:nth-child(1){
@@ -112,4 +125,7 @@ img:hover{
     100%{
         opacity: 1;
     }
+}
+ul{
+    list-style-type: none;
 }
