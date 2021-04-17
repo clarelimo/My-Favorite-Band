@@ -1,20 +1,39 @@
+.header{
+    height: 300px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/71PwGxjZMNL._SL1500_.jpg");
+}
 .about{
     text-align: center;
-    background-image: url("https://images-na.ssl-images-amazon.com/images/I/71PwGxjZMNL._SL1500_.jpg");
-    height: 300px;
     padding: 20px;
+    background-color: black;
+    color: white;
 }
-.members{
-    margin: 5px;
+.member{
     float: left;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    background-color: rgb(5, 5, 5);
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+}
+.members::after{
+     content: " "; 
+    display: table;
+    clear: both;
     color: honeydew;
+   
 }
 .meet{
-    color: honeydew;
+    text-align: center;
+}
+.favorite{
+    float: left;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+.favorites::after{
+   content: " "; 
+    display: table;
+    clear: both;
 }
 .description{
     padding: 15px;
