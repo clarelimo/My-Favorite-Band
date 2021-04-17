@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    padding: 15px;
+    padding-left: 50px;
 }
 #anthem{
     text-align: center;
@@ -128,4 +130,8 @@ img:hover{
 }
 ul{
     list-style-type: none;
+}
+ol{
+    color: blanchedalmond;
+    font-size: 30px;
 }
