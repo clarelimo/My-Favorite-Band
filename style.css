@@ -83,6 +83,10 @@ img:hover{
     background: #bb0000;
     color: white;
 }
+.fa-twitter{
+    background: #3b5998;
+    color: white;
+}
 .slide-show{
     position: relative;
     background-color: gray;
