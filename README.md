@@ -1,5 +1,5 @@
 # My-Favorite-Band
-#### This is a fan site for my favorite band just to celebrate their music., 19/04/2021
+#### This is a fan site for my favorite band just to celebrate their music, 19/04/2021
 #### By **Clare Limo**
 ## Description
 This is a site of my favorite band which is Anthem Lights. The site gives a description of my favorite music and album by the band. Details of members of the band are also included. 
